@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Class 8 Study Guide</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f7fb;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4f46e5, #7c3aed);
+      color: white;
+      padding: 35px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 17px;
+    }
+
+    nav {
+      background: white;
+      padding: 12px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 8px #ddd;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4f46e5;
+      font-weight: bold;
+      margin: 7px;
+      display: inline-block;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .hero {
+      background: white;
+      padding: 25px;
+      border-radius: 18px;
+      margin-top: 20px;
+      box-shadow: 0 4px 15px #ddd;
+      text-align: center;
+    }
+
+    .hero h2 {
+      color: #4f46e5;
+      margin-bottom: 10px;
+    }
+
+    section {
+      margin-top: 25px;
+    }
+
+    section h2 {
+      color: #4f46e5;
+      margin-bottom: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 15px;
+      box-shadow: 0 3px 12px #ddd;
+    }
+
+    .card h3 {
+      color: #7c3aed;
+      margin-bottom: 8px;
+    }
+
+    ul {
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    .subjects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .subject {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px #ddd;
+    }
+
+    .subject h3 {
+      color: #4f46e5;
+      margin-bottom: 8px;
+    }
+
+    .plan {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      background: #4f46e5;
+      color: white;
+    }
+
+    .important {
+      background: #fff7d6;
+      border-left: 5px solid #f59e0b;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 12px;
+    }
+
+    footer {
+      background: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #4f46e5;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 26px;
+      }
+
+      .container {
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>📚 Class 8 Study Guide</h1>
+  <p>कक्षा 8 की पढ़ाई शुरू करने से लेकर पूरा Syllabus करने तक</p>
+</header>
+
+<nav>
+  <a href="#start">शुरुआत</a>
+  <a href="#subjects">विषय</a>
+  <a href="#plan">Study Plan</a>
+  <a href="#syllabus">Syllabus</a>
+  <a href="#revision">Revision</a>
+  <a href="#exam">Exam</a>
+</nav>
+
+<div class="container">
+
+  <!-- शुरुआत -->
+
+  <section id="start">
+    <div class="hero">
+      <h2>🚀 Class 8 की शुरुआत कैसे करें?</h2>
+
+      <p>
+        कक्षा 8 को कठिन समझने की जरूरत नहीं है।
+        सबसे पहले अपने सभी विषयों की किताबें और Syllabus देखो।
+        फिर हर विषय के Chapters को छोटे-छोटे भागों में बाँटकर पढ़ाई शुरू करो।
+      </p>
+
+      <a class="btn" href="#plan">Study Plan देखें</a>
+    </div>
+
+    <div class="card">
+      <h3>Step 1 — अपना Syllabus जानो</h3>
+      <p>
+        सबसे पहले देखो कि साल भर में कौन-कौन से Chapters पढ़ने हैं।
+        प्रत्येक Chapter के सामने एक छोटा सा लक्ष्य बनाओ।
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Step 2 — आसान Chapter से शुरुआत</h3>
+      <p>
+        शुरुआत में ऐसा Chapter चुनो जिसे समझना आसान लगे।
+        इससे पढ़ाई में confidence बढ़ेगा।
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Step 3 — समझकर पढ़ो</h3>
+      <p>
+        केवल उत्तर याद मत करो। पहले Chapter को समझो,
+        फिर अपने शब्दों में प्रश्नों के उत्तर लिखने की कोशिश करो।
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Subjects -->
+
+  <section id="subjects">
+    <h2>📖 Class 8 के मुख्य विषय</h2>
+
+    <div class="subjects">
+
+      <div class="subject">
+        <h3>➗ Mathematics</h3>
+        <p>
+          Formula समझो, उदाहरण देखो और रोज कुछ Questions solve करो।
+        </p>
+      </div>
+
+      <div class="subject">
+        <h3>🔬 Science</h3>
+        <p>
+          पहले Concept समझो। फिर Definitions, Diagrams और Questions की Practice करो।
+        </p>
+      </div>
+
+      <div class="subject">
+        <h3>🌍 Social Science</h3>
+        <p>
+          History को कहानी की तरह समझो और Geography तथा Civics के concepts को उदाहरणों से समझो।
+        </p>
+      </div>
+
+      <div class="subject">
+        <h3>🇮🇳 Hindi</h3>
+        <p>
+          पाठ पढ़ो, कठिन शब्दों के अर्थ समझो और प्रश्न-उत्तर लिखने की Practice करो।
+        </p>
+      </div>
+
+      <div class="subject">
+        <h3>🔤 English</h3>
+        <p>
+          रोज थोड़ा Reading, Grammar और Writing Practice करो।
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Study Plan -->
+
+  <section id="plan">
+    <h2>⏰ Daily Study Plan</h2>
+
+    <div class="plan">
+      <table>
+
+        <tr>
+          <th>समय</th>
+          <th>काम</th>
+        </tr>
+
+        <tr>
+          <td>30 मिनट</td>
+          <td>Maths</td>
+        </tr>
+
+        <tr>
+          <td>30 मिनट</td>
+          <td>Science</td>
+        </tr>
+
+        <tr>
+          <td>30 मिनट</td>
+          <td>Social Science</td>
+        </tr>
+
+        <tr>
+          <td>20 मिनट</td>
+          <td>Hindi / English</td>
+        </tr>
+
+        <tr>
+          <td>10 मिनट</td>
+          <td>आज जो पढ़ा उसका Revision</td>
+        </tr>
+
+      </table>
+    </div>
+
+    <div class="important">
+      💡 <b>Tip:</b> अगर किसी दिन ज्यादा समय नहीं मिल रहा है,
+      तो कम समय में भी पढ़ाई करो। रोज थोड़ा पढ़ना लंबे समय तक पढ़ने
+      से ज्यादा उपयोगी हो सकता है।
+    </div>
+  </section>
+
+
+  <!-- Syllabus -->
+
+  <section id="syllabus">
+    <h2>🎯 पूरा Syllabus कैसे पूरा करें?</h2>
+
+    <div class="card">
+      <h3>1️⃣ Syllabus को छोटे भागों में बाँटो</h3>
+
+      <p>
+        पूरे साल का Syllabus एक साथ देखकर परेशान मत हो।
+        उसे Month → Week → Day में बाँट दो।
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>2️⃣ हर Chapter के 4 चरण</h3>
+
+      <ul>
+        <li>पहली बार — Chapter को समझकर पढ़ो।</li>
+        <li>दूसरी बार — Important points लिखो।</li>
+        <li>तीसरी बार — Questions solve करो।</li>
+        <li>चौथी बार — Revision और Self Test करो।</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>3️⃣ Chapter पूरा होने पर</h3>
+
+      <ul>
+        <li>Definitions देखो।</li>
+        <li>Important Questions करो।</li>
+        <li>जो याद नहीं है उसे दोबारा पढ़ो।</li>
+        <li>बिना किताब देखे खुद से समझाने की कोशिश करो।</li>
+      </ul>
+    </div>
+
+  </section>
+
+
+  <!-- Revision -->
+
+  <section id="revision">
+    <h2>🧠 Revision कैसे करें?</h2>
+
+    <div class="card">
+
+      <h3>🔁 1st Revision</h3>
+      <p>
+        Chapter पढ़ने के कुछ समय बाद जल्दी से दोबारा देखो।
+      </p>
+
+      <h3>🔁 2nd Revision</h3>
+      <p>
+        अगले दिन Important Questions और Definitions देखो।
+      </p>
+
+      <h3>🔁 3rd Revision</h3>
+      <p>
+        कुछ दिनों बाद बिना किताब देखे Questions हल करने की कोशिश करो।
+      </p>
+
+      <h3>🔁 4th Revision</h3>
+      <p>
+        परीक्षा से पहले पूरे Chapter का Final Revision करो।
+      </p>
+
+    </div>
+
+    <div class="important">
+      🧠 <b>Golden Rule:</b>
+      जो चीज समझ में नहीं आए उसे केवल रटने के बजाय
+      उसका कारण और उदाहरण समझने की कोशिश करो।
+    </div>
+  </section>
+
+
+  <!-- Exam -->
+
+  <section id="exam">
+    <h2>📝 Exam की तैयारी</h2>
+
+    <div class="card">
+
+      <ul>
+        <li>सबसे पहले पूरा Syllabus पूरा करो।</li>
+        <li>Important Questions की Practice करो।</li>
+        <li>Definitions और Formulas revise करो।</li>
+        <li>Maths के Questions लिखकर हल करो।</li>
+        <li>Science में Diagrams की Practice करो।</li>
+        <li>Social Science में घटनाओं और कारणों को समझो।</li>
+        <li>Hindi और English में Writing Practice करो।</li>
+        <li>अंत में Self Test जरूर दो।</li>
+      </ul>
+
+    </div>
+  </section>
+
+
+  <!-- Motivation -->
+
+  <section>
+    <div class="hero">
+
+      <h2>🔥 याद रखो!</h2>
+
+      <p>
+        Class 8 को एक ही दिन में पूरा नहीं करना है।
+        रोज थोड़ा-थोड़ा पढ़ना है और अपने लक्ष्य की तरफ बढ़ना है।
+      </p>
+
+      <br>
+
+      <h3>आज का छोटा लक्ष्य → कल की बड़ी सफलता 🎯</h3>
+
+    </div>
+  </section>
+
+</div>
+
+
+<footer>
+  <p>📚 Class 8 Study Guide</p>
+  <p>Made for Students ❤️</p>
+</footer>
+
+</body>
+</html>
